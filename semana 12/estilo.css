@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+body{
+    background-color: black;
+    color: white;
+}
+table{
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+}
+table th, table td{
+    padding: 10px 15px;
+    border: 0.1px solid  #6e6e6e;
+    font-family: Rufina;
+}
+caption{
+    padding: 10px;
+    font-family: Rufina;
+}
+th{
+    width: calc(100% / 6);
+}
+tr:nth-child(odd){
+    background-color: #1b1b1b;
+}
+tr:nth-child(even){
+     background-color: #343434;
+}
+tr:hover{
+    background-color: #f569ff4d;
+}
