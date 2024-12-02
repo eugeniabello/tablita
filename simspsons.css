@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+div{
+    width: 1200px;
+    margin: 0 auto;
+}
+.Logo{
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 30px;
+}
+nav a, nav a:hover, p, ul{
+    font-family: Roboto;
+}
+h1, h2{
+    font-family: Madimi One;
+}
+nav strong{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    width: 20%;
+    padding: 20px 20px;
+}
+nav a:hover{
+    background-color: #f5e234;
+    border: solid 1px #f5e234;
+    border-radius: 10px;
+}
+.principal{
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 0%;
+    padding: 30px;
+    background-color: #137abf;
+    color: white;
+}
+.linea{
+    padding-bottom: 3px;
+    border-bottom: 2px solid #ccc;
+}
+ul{
+    padding-left: 0;
+}
+.fin{
+    margin-bottom: 60px;
+}
